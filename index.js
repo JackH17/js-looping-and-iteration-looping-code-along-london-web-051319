@@ -15,7 +15,8 @@ let int = 10;
 
 
 function countdown(number){
-while (number > -1){
+while (number > 0){
   console.log(number--);
   }
+  console.log(number)
 }
